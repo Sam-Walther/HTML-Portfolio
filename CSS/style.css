@@ -19,9 +19,11 @@ a {
     font-weight: bolder;
     text-decoration: none;
 }
-a:hover{
+
+a:hover {
     cursor: url('CSS Assets/pib-pointer.png'), pointer;
 }
+
 main {
 
     width: 70vw;
@@ -40,12 +42,16 @@ footer {
 
 }
 
+li {
+    padding: 10px;
+}
+
 .main-header {
     display: block;
     margin-left: 25%;
     height: 15vh;
-    width:70vw;
-    margin-bottom:8px;
+    width: 70vw;
+    margin-bottom: 8px;
 }
 
 
