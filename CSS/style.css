@@ -33,8 +33,8 @@ main {
 
 footer {
     font-size: small;
-    width: calc(70vw*0.82);
-    margin-left: 51%;
+    width: calc(70vw*0.8);
+    margin-left: 45%;
     padding: 20px 0;
     border: solid #caeef3;
     border-radius: 3px;
