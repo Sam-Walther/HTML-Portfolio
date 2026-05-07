@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            height: 141px;
+            overflow: hidden;
+        }
+
+        audio {
+            background-color: aqua;
+        }
+
+        button {
+            border-radius: 30px;
+            height: 40px;
+            width: 40px;
+        }
+
+        #playButton {
+            background-image: url('PlayB.png');
+            width: 50px;
+            height: 50px;
+            background-size: contain;
+        }
+
+        #mini-player {
+            background-image: url('cassettePause.png');
+            display: block;
+            width: 160px;
+            height: 80px;
+            padding: 20px;
+            padding-bottom: 25px;
+            background-size: cover;
+            border-radius: 10px;
+        }
+
+        .controls {
+            background-size: contain;
+            padding: 15px 20px;
+            width: 160px;
+            border-radius: 10px;
+        }
+
+        p {
+            background-color: #593c1bc2;
+            padding: 1px;
+            border-radius: 5px;
+            color: aliceblue;
+        }
+
+        #duration {
+            display: inline-block;
+            width: fit-content;
+        }
+
+        .media-player {
+            height: 140px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="media-player">
+        <div id="mini-player">
+            <p id="song-name"></p>
+            <p id="duration" style="display:inline-block;width:fit-content;">0:00/</p>
+            <p id="time" style="display:inline-block;width:fit-content;">0:00</p>
+        </div>
+        <audio id="player" onended="nextSong()" onloadeddata="updateName()" onplaying="displaySongDuration()"
+            src="playlist/AETHER.ISO.mp3"></audio>
+    </div>
+    <div class="controls" style="background-image:url('controlsCRTE.png')">
+        <button onclick="previousSong()" style="background-image:url('backwardB.png'); background-size:cover;"></button>
+        <button id="playButton" onclick="playPause('HTML')"></button>
+        <button onclick="nextSong()" style="background-image:url('forwardB.png'); background-size:cover;"></button>
+    </div>
+    <div>
+        <script src="music-player.js"></script>
+</body>
+
+</html>
