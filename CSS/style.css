@@ -24,6 +24,21 @@ a:hover {
     cursor: url('CSS Assets/pib-pointer.png'), pointer;
 }
 
+button {
+    color: #caeef3;
+    font-style: none;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bolder;
+    text-decoration: none;
+    background-color: #041a19bf;
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor: url('CSS Assets/pib-pointer.png'), pointer;
+}
+
 main {
 
     width: 70vw;
