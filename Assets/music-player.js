@@ -1,4 +1,4 @@
-let playList = ['playlist/AETHER.ISO.mp3', 'playlist/ALGORITHM_ANGEL.mp3', 'playlist/alpine+racer.mp3', 'playlist/Ant+Racing.mp3',
+const playList = ['playlist/AETHER.ISO.mp3', 'playlist/ALGORITHM_ANGEL.mp3', 'playlist/alpine+racer.mp3', 'playlist/Ant+Racing.mp3',
     'playlist/Asteroidea.mp3', 'playlist/Back+To+Earth.mp3', 'playlist/Bliss.mp3', 'playlist/Brain+Slushie.mp3', 'playlist/Choise+Noise.mp3',
     'playlist/Dog+Bus.mp3', 'playlist/EMBRYOGLYPH.mp3', 'playlist/Felt+Good.mp3', 'playlist/Metadata.mp3', 'playlist/ready2flow.mp3',
     'playlist/Reverse Nightmare+Tower.mp3', 'playlist/S.N.U.F.F.Y.mp3', 'playlist/SPIRAL.mp3', 'playlist/Submerge.mp3', 'playlist/TRASH+CLAN.mp3',

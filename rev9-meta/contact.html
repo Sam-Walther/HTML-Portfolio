@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Code Central Bootcamp</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="content">
+        <a href="index.html"><h1>Code Central Bootcamp</h1></a>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="workshops.html">Workshops</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="store.html">Store</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div id="wrapper">
+    <main class="contact">
+        <h2>Contact Us</h2>
+        <p>Have a question or want to learn more about Code Central Bootcamp? Get in touch with us!</p>
+        <!-- typically you would put in the HTTP method and route in opening form -->
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required>  
+            <!--name property relates to JS and label / id can relate to JS and CSS-->
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>  
+            <label for="message">Message:</label>
+            <!-- rows and cols for textarea are default size -->
+            <textarea name="message" id="message" required rows="5" cols="25"></textarea>
+            <button type="submit">Send Message</button>
+            <!-- <input type="submit" value="Send Message"> -->
+        </form>
+    </main>
+    </div>
+    <footer>
+        <i class="camp" style="color: #EFF8FB;">Code Central Bootcamp</i> &copy; 2026<br>
+        123 Main Street, Yourtown USA<br>
+        Contact: <a href="mailto:info@codecentral.com">info@codecentral.com</a><br>   <!--make clickable for email to load up-->
+        <a href="tel:248-434-5508" id="mobile">248-434-5508</a>
+        <span id="desktop">248-434-5508</span>
+    </footer>
+</body>
+</html>
