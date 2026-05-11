@@ -13,7 +13,7 @@ body {
 
 a {
     color: #caeef3;
-    font-style: none;
+    font-style: unset;
     padding: 22px;
     font-size: larger;
     font-weight: bolder;
@@ -26,7 +26,7 @@ a:hover {
 
 button {
     color: #caeef3;
-    font-style: none;
+    font-style: unset;
     padding: 10px;
     font-size: 18px;
     font-weight: bolder;
