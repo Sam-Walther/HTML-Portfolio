@@ -6,7 +6,7 @@ body {
     align-content: center;
     font-family: 'Courier New', Courier, monospace;
     color: #caeef3;
-    width: 1000px;
+    width: 70vw;
     text-shadow: 1px 2px 2px #0047AB;
     cursor: url('CSS Assets/pib-cursor.png'), default;
 }
@@ -15,7 +15,7 @@ a {
     color: #caeef3;
     font-style: none;
     padding: 22px;
-    font-size: 18px;
+    font-size: larger;
     font-weight: bolder;
     text-decoration: none;
 }
@@ -82,6 +82,10 @@ img {
     max-width: calc(70vw*0.8);
 }
 
+iframe {
+    max-width: fit-content;
+}
+
 .main-header {
     display: block;
     margin-left: 25%;
@@ -107,6 +111,7 @@ img {
     margin: 15px 0;
     display: block;
     border: #caeef3 outset 4px;
+    overflow: hidden;
     border-radius: 5px;
     background-color: #041a19;
 }
