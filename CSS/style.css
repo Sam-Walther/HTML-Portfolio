@@ -82,9 +82,6 @@ img {
     max-width: calc(70vw*0.8);
 }
 
-iframe {
-    max-width: fit-content;
-}
 
 .main-header {
     display: block;
