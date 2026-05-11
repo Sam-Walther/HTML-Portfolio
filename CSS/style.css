@@ -40,15 +40,15 @@ button:hover {
 }
 
 main {
-    width: 70vw;
-    margin-left: 25%;
+    width: 75vw;
+    margin-left: 18%;
     display: flex;
 }
 
 footer {
     font-size: small;
     width: calc(70vw*0.8);
-    margin-left: calc(25% + 70vw * 0.18 + 30px);
+    margin-left: calc(18% + 75vw * 0.18 + 30px);
     padding: 10px 0;
     border: solid #caeef3;
     border-radius: 3px;
@@ -88,10 +88,10 @@ iframe {
 
 .main-header {
     display: block;
-    margin-left: 25%;
+    margin-left: 18%;
     height: 15vh;
     max-width: 80vw;
-    width: 70vw;
+    width: 75vw;
     margin-bottom: 8px;
 }
 
@@ -103,7 +103,7 @@ iframe {
     background-color: rgba(11, 67, 78, 0.8);
     margin-right: 0;
     flex: auto;
-    height: 100vh;
+    height: 700px;
 }
 
 .sidebar a {
