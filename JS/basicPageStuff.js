@@ -11,3 +11,15 @@ function toggleTheme() {
         theme.setAttribute('href', 'CSS/alt-style.css');
     }
 }
+
+function clickForbiddenButton() {
+    //selects the button of knowledge
+    let button = document.getElementById('artButton');
+    let img = document.getElementById('artImg');
+
+    //unlocks the terrible secret behind the pixelated fortress
+    console.log('i should uh yeah' + button);
+    img.style.display = 'block';
+    button.style.display = 'none';
+
+}

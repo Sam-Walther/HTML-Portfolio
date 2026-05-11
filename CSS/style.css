@@ -4,16 +4,16 @@ body {
     background-size: cover;
     text-align: center;
     align-content: center;
-    width:1000px;
+    font-family: 'Courier New', Courier, monospace;
     color: #caeef3;
+    width: 1000px;
     text-shadow: 1px 2px 2px #0047AB;
-    max-height: 1028px;
     cursor: url('CSS Assets/pib-cursor.png'), default;
 }
 
 a {
     color: #caeef3;
-    font-style: 0;
+    font-style: none;
     padding: 22px;
     font-size: 18px;
     font-weight: bolder;
@@ -26,7 +26,7 @@ a:hover {
 
 button {
     color: #caeef3;
-    font-style: 0;
+    font-style: none;
     padding: 10px;
     font-size: 18px;
     font-weight: bolder;
@@ -40,7 +40,6 @@ button:hover {
 }
 
 main {
-
     width: 70vw;
     margin-left: 25%;
     display: flex;
@@ -49,7 +48,7 @@ main {
 footer {
     font-size: small;
     width: calc(70vw*0.8);
-    margin-left: 51%;
+    margin-left: calc(25% + 70vw * 0.18 + 30px);
     padding: 10px 0;
     border: solid #caeef3;
     border-radius: 3px;
@@ -57,18 +56,37 @@ footer {
 
 }
 
-footer a{
-    padding:0;
+footer a {
+    padding: 0;
 }
 
 li {
     padding: 10px;
 }
 
+table {
+    border: 2px dotted #abe6ed;
+}
+
+tr {
+    border: 2px dotted #abe6ed;
+    padding: 10px;
+}
+
+td {
+    border: 2px dotted #abe6ed;
+    padding: 10px;
+}
+
+img {
+    max-width: calc(70vw*0.8);
+}
+
 .main-header {
     display: block;
     margin-left: 25%;
     height: 15vh;
+    max-width: 80vw;
     width: 70vw;
     margin-bottom: 8px;
 }
