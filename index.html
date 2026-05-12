@@ -8,10 +8,10 @@
     <link id="theme" rel="stylesheet" type=text/css href="CSS/style.css">
     <title>MDG - Homepage</title>
     <meta charset="UTF-8">
-    <meta content="MetaDataGarbage/Home.com" property="og:title" />
+    <meta content="MetaDataGarbage/Home.com" property="og:title">
     <meta name="viewport" content="width=device-width">
     <meta name="description"
-        content="Explore my webpage that looks nothing at all like a MySpace Page. This is the homepage which is just like a regular ol homepage. It has stuff." />
+        content="Explore my webpage that looks nothing at all like a MySpace Page. This is the homepage which is just like a regular ol homepage. It has stuff.">
     <style>
         .done {
             font-style: italic;
@@ -27,8 +27,8 @@
     <main>
 
         <div class="sidebar">
-            <iframe src="Assets/musicPlayer.html" height="230" width="202"></iframe>
-            <h3 class="headers">Nav Menu</h3>
+            <iframe src="Assets/musicPlayer.html" id="player"></iframe>
+            <h1 class="headers">Nav Menu</h1>
             <a href="index.html">Home</a>
             <a href="about-me.html">About Me</a>
             <a href="Accomplishments.html">Accomplishments</a>
@@ -41,7 +41,7 @@
         <div class="main">
             <button onclick="toggleTheme()">Change Theme</button>
             <div class="sections">
-                <h3>Hello I am awesome coder man, I do lots of things yet somehow not alot at the same time.</h3>
+                <h2>Hello I am awesome coder man, I do lots of things yet somehow not alot at the same time.</h2>
                 <p>This website is for showing off some of the coding things we've done in Computer Science class so
                     far,
                     some stuff I worked on seperatly from Computer Science, and just other general fun stuff like some
@@ -49,8 +49,29 @@
                     and some cool links to some things you might not know about or just find cool.
                 </p>
             </div>
-            <img src="Assets/Images/horseplinko.gif" alt="horse plinko">
-</main>
+
+            <div class="sections">
+                <h3>Todo list:</h3>
+                <div>
+                    <ul>
+                        <li class="done">Get Claude on that english essay </li>
+                        <li class="done">Get the freecodeslop done</li>
+                        <li>Get this wonderful website done</li>
+                        <li class="done">Get the video ad for English done</li>
+                        <li class="done">Help out on the slides for Sociology</li>
+                        <li class="done">Get the ILP database stuff done
+                            (gotta be done in CS)NOT DONE IN TIME</li>
+                        <li class="done">Get the MIT App Inventor
+                            (AGHGHGHGHHG) improvements done</li>
+                        <li class="done">Get the Galactic Stuff done (gotta be done in CS too)</li>
+                        <li>Get the Sociology IAKT done</li>
+                        <li>Get the Environmental Science Final done.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <img src="Assets/Images/horseplinko.gif" alt="horse plinko">
+    </main>
     <footer>
         <p>Made by Samuel Walther with inspirations from about a million neocities websites</p>
         <a href="mailto:samuel.walther@stu.evsck12.com" style="padding:30px;">School Email</a>
@@ -62,14 +83,14 @@
                 alt="firefox"></a>
         <a href="https://gba.js.org/" target="_blank"><img src="Assets/Images/Buttons/GBA.png" alt="GBA"></a>
         <img src="Assets/Images/Buttons/aol.gif" alt="aol">
-        <img src="Assets/Images/Buttons/area 51.gif" alt="area 51">
+        <img src="Assets/Images/Buttons/area_51.gif" alt="area 51">
         <img src="Assets/Images/Buttons/awesomelogo1.gif" alt="crack DES">
         <img src="Assets/Images/Buttons/best_viewed_with_eyes.gif" alt="look with eyes">
         <img src="Assets/Images/Buttons/jojo.gif" alt="jojos">
         <img src="Assets/Images/Buttons/nocookie.gif" alt="no cookies here">
         <img src="Assets/Images/Buttons/clip8.gif" alt="free stuff">
-        <a href="https://www.w3.org/donate/" target="_blank"><img src="Assets/Images/Buttons/I_heart_validator_lg.png"
-                alt="i heart validator"></a>
+        <a href="https://validator.w3.org/nu/#file" target="_blank"><img
+                src="Assets/Images/Buttons/I_heart_validator_lg.png" alt="i heart validator" width="88" height="31"></a>
     </footer>
     <script src="JS/basicPageStuff.js"></script>
 </body>

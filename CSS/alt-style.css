@@ -51,7 +51,7 @@ main {
 
 footer {
     font-size: small;
-    width: calc(70vw*0.8);
+    width: calc(75vw*0.8);
     margin-left: calc(18% + 75vw * 0.18 + 30px);
     padding: 20px 0;
     border: solid #caeef3;
@@ -134,7 +134,10 @@ img {
     position: relative;
 }
 
-
+#player {
+    height: 200px;
+    width: 100%;
+}
 
 
 .main {
@@ -148,6 +151,7 @@ img {
 .headers {
     background-color: #88a2f8;
     color: #0047AB;
+    font-size: larger;
 }
 
 .sections {
