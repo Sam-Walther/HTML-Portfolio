@@ -13,11 +13,11 @@ body {
 
 a {
     color: #caeef3;
-    font-style: unset;
     padding: 22px;
     font-size: larger;
     font-weight: bolder;
     text-decoration: none;
+    font-style: italic;
 }
 
 a:hover {
